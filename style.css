@@ -18,6 +18,12 @@ body{
     color: #78350f;
 }
 
+.mainSection{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+} 
+
 .main{
     width: 50%;
     margin-top: 2rem;
@@ -69,7 +75,3 @@ footer{
     margin-top: 9rem;
 }
 
-.mainSection{
-    display: flex;
-    justify-content: space-between;
-}
