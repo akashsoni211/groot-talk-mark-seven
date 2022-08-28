@@ -24,6 +24,28 @@ body{
     width: 100%;
 } 
 
+.groot{
+    max-width: 200px;
+    margin-top: 9rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .mainSection {
+        display: block;
+        width: 100%;
+    }
+
+    .groot{
+           display: block;
+           margin: auto;
+           margin-top: 1rem;
+    }
+    .main{
+        display: block;
+        margin: auto;
+    }
+  }
+
 .main{
     width: 50%;
     margin-top: 2rem;
@@ -66,12 +88,9 @@ footer{
     max-height: 20vh;
     text-align: center;
     padding: 1rem;
-    position: absolute;
+    position: relative;
     bottom: 0px;
 }
 
-.groot{
-    max-width: 200px;
-    margin-top: 9rem;
-}
+
 
